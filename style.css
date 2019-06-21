@@ -1,0 +1,49 @@
+.slider{
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  height: 400px;
+  width: 400px;
+}
+.slide{
+  display: inline-block;
+}
+.slide img{
+  width: 100%;
+}
+#next, #previous{
+  cursor: pointer;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  margin-top: -210px;
+}
+#previous:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+#next:hover{
+  background-color: rgba(0,0,0,0.8); 
+} 
+#next{
+  margin-left: 875px;
+}
+#previous{
+  margin-left: 410px;
+}
+.dot{
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 10px;
+}
+.dotMove{
+  margin-left: 610px;
+}
+.dot:hover{
+  cursor: pointer;
+  background-color: brown;
+}
