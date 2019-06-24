@@ -43,7 +43,7 @@
 .dotMove{
   margin-left: 610px;
 }
-.dot:hover{
+.active, .dot:hover{
   cursor: pointer;
   background-color: brown;
 }
